@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Composition">
+    <Position X="3.63" Y="4.201" Height="0.291" Width="0.945" />
+  </Comment>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EA2AAAAAACgIIRCAAAEAAAAYCCEAEpgAARAAACAAAAA=</HashCode>
+      <FileName>Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackgroundEntity" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAABAAAQBEAAABAABBAQAAAAAAA=</HashCode>
+      <FileName>BackgroundEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneryEntity" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAACAAAAA=</HashCode>
+      <FileName>SceneryEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyEntity" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgBAAACAAYAIAAAABAAAAAAkEAAAABAgoCAAAAA=</HashCode>
+      <FileName>EnemyEntity.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_AI" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerEntity" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAABAAAAEEAAAABAAgCAAAAg=</HashCode>
+      <FileName>PlayerEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShipEntity" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAgAAAQAAAAAEEAAASAYAgAAAAQA=</HashCode>
+      <FileName>ShipEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectileEntity" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAQAAAQAAACQIAAABAAAAEAAAABCAACAAAAA=</HashCode>
+      <FileName>ProjectileEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rectangle" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAAAAABABkAAAAAhAAAAoAAAAAAAEAFAAoAA=</HashCode>
+      <FileName>Rectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2D" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAEAAAAQBAAAAAAAAAAABgAAEAAAA=</HashCode>
+      <FileName>Vector2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgAAACAAgAAAQAAAAAIAEAAAAKAAgAAAAAI=</HashCode>
+      <FileName>AI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sounds" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAABAAAAAAAAAAAAAAgIAAAAECCABCAICAQAAAA=</HashCode>
+      <FileName>Sounds.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Textures" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEIAAAAAAIgABCAAAAAAAACAAAAAAAABgAAAAAAAA=</HashCode>
+      <FileName>Textures.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIBgIAIAAAAAAAAAAAAAAAIAAAAABAAAAAACAAAEgA=</HashCode>
+      <FileName>UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visualisation" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RhAQxgAIgpAACUgAEAAAgAiIQAIAABDAALARKREaMCA=</HashCode>
+      <FileName>Visualisation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldModel" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACICAAAAAAAIABEAEAAA0QAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>WorldModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="EnemyBatch" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAAAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorldModel.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="ESide" Collapsed="true">
+    <Position X="13.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAACAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Entity.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EEnemyType" Collapsed="true">
+    <Position X="11.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyEntity.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ECannonSide" Collapsed="true">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyEntity.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

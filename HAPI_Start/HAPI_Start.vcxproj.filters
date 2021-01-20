@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{91de78b9-1914-42ca-9312-2b847eb69e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{f239800e-13f0-4767-92ff-45abb07d2456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{431161f4-369d-4c2c-9a18-54dc466d445f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Main">
+      <UniqueIdentifier>{b935a0be-0d92-4704-8ce9-83c6f499a56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Scenery">
+      <UniqueIdentifier>{ac8d2809-a07b-49f3-bd19-726f30e0109e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Ship">
+      <UniqueIdentifier>{e90db6f4-fd53-4057-a5fe-080ebafeee7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Projectile">
+      <UniqueIdentifier>{f43388b3-66c1-4882-ae45-76463e51c08e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualisation.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldModel.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundEntity.cpp">
+      <Filter>Entities\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneryEntity.cpp">
+      <Filter>Entities\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEntity.cpp">
+      <Filter>Entities\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEntity.cpp">
+      <Filter>Entities\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileEntity.cpp">
+      <Filter>Entities\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipEntity.cpp">
+      <Filter>Entities\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>_Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualisation.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldModel.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundEntity.h">
+      <Filter>Entities\Scenery</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneryEntity.h">
+      <Filter>Entities\Scenery</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEntity.h">
+      <Filter>Entities\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEntity.h">
+      <Filter>Entities\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileEntity.h">
+      <Filter>Entities\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipEntity.h">
+      <Filter>Entities\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>_Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿  pch.cpp
+  AI.cpp
+  BackgroundEntity.cpp
+  EnemyEntity.cpp
+  Entity.cpp
+  main.cpp
+  PlayerEntity.cpp
+  ProjectileEntity.cpp
+  Rectangle.cpp
+  SceneryEntity.cpp
+  ShipEntity.cpp
+  Sounds.cpp
+  Textures.cpp
+  UI.cpp
+  Vector2D.cpp
+  Visualisation.cpp
+  WorldModel.cpp
+  Generating Code...
+  HAPI_Start.vcxproj -> A:\Backups\Uni\Year 2\s1\Games Engine Construction\Games Engine\x64\Release\HAPI_Start.exe
